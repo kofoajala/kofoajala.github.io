@@ -106,6 +106,10 @@ header-social-links {
 }
 
 @media screen and (max-width: 800px) {
+  .Intro{
+    height: 100vh;
+  }
+
   .Intro h1 {
     font-size: 50px;
     padding-left: 10px;
