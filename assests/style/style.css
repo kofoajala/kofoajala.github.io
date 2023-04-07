@@ -1,0 +1,145 @@
+@font-face {
+    font-family: ostrich-regular;
+    src: url(../fonts/ostrich-sans/ostrich-regular.ttf)
+}
+
+@font-face {
+  font-family: ostrich-bold;
+  src: url(../fonts/ostrich-sans/OstrichSans-Bold.otf);
+}
+
+
+body {
+    font-family: ostrich-regular;
+    color: #a20707;
+    margin: 0;
+  }
+
+/*--------------------------------------------------------------
+# Top Nav Bar
+--------------------------------------------------------------*/
+header {
+  width: 100%;  
+  overflow: hidden;
+  position: fixed;
+  background-color: white;
+  font-family: ostrich-bold;
+}
+
+.topnav {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid;
+  border-radius: 2px;
+  width: 100%;
+  height: 60px;
+  padding-left: 10px;
+
+}
+
+.topnav a {
+  color: #a20707;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.topnav h3 {
+  font-size: 40px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header-social-links {
+  padding-left: 15px;
+}
+
+/*--------------------------------------------------------------
+# Main-Intro Section
+--------------------------------------------------------------*/
+
+.main {
+  padding-top: 50px;
+  background-color: azure;
+}
+
+.Intro {
+  background-image: url(../images/KofoPhotoshoot-036_websize.jpg);
+  background-size: stretch;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+
+.Intro h1 {
+  font-size: 70px;
+  font-family: ostrich-regular;
+  color: #a20707;
+  padding-left: 10px;
+  transition: 1s;
+}
+
+.Intro h2 {
+  font-size: 50px;
+  font-family: script;
+  color: #891313;
+  padding-left: 0px;
+  transition: 1s;
+}
+.intro-text {
+  margin-left: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 800px) {
+  .Intro h1 {
+    font-size: 50px;
+    padding-left: 10px;
+  }
+  .Intro h2 {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+  .intro-text {
+    margin-left: 0;
+  }
+}
+  
+
+
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    background: #e9e8e6;
+    padding: 30px 0;
+    color: #222222;
+    font-size: 20px;
+    text-align: center;
+}
+  
+  #footer .credits {
+    padding-top: 5px;
+    font-size: 20px;
+  }
+  
+  #footer .credits a {
+    color: #34b7a7;
+  }
